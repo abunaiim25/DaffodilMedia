@@ -1,0 +1,35 @@
+.PageNotFound {
+    background: #2F3242!important;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PageNotFound .message-box {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 300;
+  }
+  .PageNotFound  .message-box h1 {
+    font-size: 60px;
+    line-height: 46px;
+    margin-bottom: 40px;
+  }
+
+  .PageNotFound .buttons-con .action-link-wrap a {
+    background: #68c950;
+    padding: 8px 25px;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px
+  }
+
+  
